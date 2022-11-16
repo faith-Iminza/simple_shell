@@ -4,10 +4,10 @@
  * main - runs the shell program
  * Return: 0 on success
  */
-int main(void) 
+int main(void)
 {
-	char *fullpathbuffer = NULL, *copy = NULL, *buffer = NULL;	
-	char *PATH = NULL;	
+	char *fullpathbuffer = NULL, *copy = NULL, *buffer = NULL;
+	char *PATH = NULL;
 
 	char **av;
 int exitstatus = 0;
